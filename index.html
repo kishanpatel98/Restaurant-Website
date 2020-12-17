@@ -45,17 +45,17 @@
                 <br class="hidden-xs"> About </a>
             </li>
             <li>
-              <a href="menu-categories.html">
+              <a href="#">
                 <span class="glyphicon glyphicon-cutlery"></span>
                 <br class="hidden-xs"> Menu </a>
             </li>
             <li>
-              <a href="menu-categories.html">
+              <a href="#">
                 <span class="glyphicon glyphicon-certificate"></span>
                 <br class="hidden-xs"> Awards </a>
             </li>
             <li>
-              <a href="menu-categories.html">
+              <a href="#">
                 <span class="glyphicon glyphicon-map-marker"></span>
                 <br class="hidden-xs"> Locations </a>
             </li>
@@ -75,24 +75,52 @@
     </nav>
   </header>
 
+  <div id="call-btn" class="visible-xs">
+   <a class="btn" href="tel:416-xxx-xxxx">
+   <span class="glyphicon glyphicon-earphone"></span>
+   416-XXX-XXXX
+   </a>
+ </div>
+ <div id="xs-deliver" class="text-center visible-xs"> We Deliver</div>
+
   <div id="main-content" class="container">
-    <h1 class="menu-header text-center col-md-12 col-ms-12 col-xs-12">Our Menu</h1>
-    <div id="chicken" class="menu-content col-md-12 col-ms-12 col-xs-12">
-      <h3 class="text-center">A</h3>
-      <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. In eu mi bibendum neque egestas. Scelerisque eleifend donec pretium vulputate sapien nec sagittis aliquam. Eu ultrices vitae auctor eu augue. Augue mauris augue neque gravida in fermentum. Cursus in hac habitasse platea. Metus vulputate eu scelerisque felis. Sem et tortor consequat id porta nibh. Maecenas volutpat blandit aliquam etiam erat velit scelerisque in dictum. Velit egestas dui id ornare arcu odio ut. Blandit volutpat maecenas volutpat blandit aliquam etiam. Amet est placerat in egestas erat imperdiet sed euismod nisi. Laoreet sit amet cursus sit amet dictum sit amet justo. Vitae nunc sed velit dignissim sodales. In fermentum et sollicitudin ac orci phasellus egestas tellus. Fusce ut placerat orci nulla pellentesque dignissim enim sit. Eget dolor morbi non arcu risus quis. Sem nulla pharetra diam sit amet. Ac ut consequat semper viverra nam. </p>
-      <p>Elit pellentesque habitant morbi tristique senectus et netus et. Eros in cursus turpis massa tincidunt dui. Sapien nec sagittis aliquam malesuada bibendum arcu vitae elementum curabitur. Est ultricies integer quis auctor elit sed vulputate. Velit scelerisque in dictum non consectetur a erat. At varius vel pharetra vel turpis nunc eget lorem dolor. Cras semper auctor neque vitae tempus quam pellentesque. Auctor augue mauris augue neque gravida in fermentum et. In dictum non consectetur a erat. Enim eu turpis egestas pretium aenean pharetra magna ac. Eget nulla facilisi etiam dignissim diam. Id cursus metus aliquam eleifend mi in nulla. Lectus magna fringilla urna porttitor rhoncus dolor purus. Sit amet consectetur adipiscing elit pellentesque.</p>
+    <div class="jumbotron">
+      <img src="images/restaurant-768.jpg" alt="Picture of restaurant" class="img-responsive visible-xs">
     </div>
-    <div id="beef" class="menu-content col-md-12 col-ms-12 col-xs-12">
-      <h3 class="text-center">B</h3>
-      <p>Aliquam faucibus purus in massa tempor nec feugiat nisl. Integer feugiat scelerisque varius morbi enim. Nibh praesent tristique magna sit amet purus gravida quis. Scelerisque felis imperdiet proin fermentum leo vel orci porta non. Integer malesuada nunc vel risus commodo. Sed viverra ipsum nunc aliquet bibendum. Convallis a cras semper auctor. Bibendum est ultricies integer quis auctor elit sed. Porttitor massa id neque aliquam vestibulum. Egestas purus viverra accumsan in nisl nisi scelerisque. Lacus sed viverra tellus in.</p>
-      <p>Gravida quis blandit turpis cursus in hac habitasse platea dictumst. Donec massa sapien faucibus et molestie. Faucibus interdum posuere lorem ipsum. Velit sed ullamcorper morbi tincidunt. Nulla facilisi cras fermentum odio. Volutpat sed cras ornare arcu dui vivamus arcu. Amet est placerat in egestas erat imperdiet sed euismod nisi. Integer enim neque volutpat ac. Lorem ipsum dolor sit amet. Lacinia at quis risus sed vulputate odio ut enim. Purus in mollis nunc sed id. Cum sociis natoque penatibus et magnis dis parturient. Habitant morbi tristique senectus et netus et.</p>
+
+    <div id="home-tiles" class="row">
+      <div class="col-md-4 col-sm-6 col-xs-12">
+        <a href="menu-categories.html"><div id="menu-tile">
+          <span> Menu </span>
+        </div></a>
+      </div>
+      <div class="col-md-4 col-sm-6 col-xs-12">
+        <a href="single-category.html"><div id="specials-tile">
+          <span> Specials </span>
+        </div></a>
+      </div>
+      <div class="col-md-4 col-sm-12 col-xs-12">
+        <a href="https://goo.gl/maps/MXHAA42AAzDAZwpeA" target="_blank">
+          <div id="map-tile">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d930.2015651869762!2d72.79552191242598!3d21.160107058139303!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sca!4v1608187661190!5m2!1sen!2sca" width="100%" height="250" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+            <span> Map </span>
+          </div>
+        </a>
+    </div> <!-- End #home-tiles div -->
+  </div> <!-- End #main-content div -->
+
+  <footer class="panel-footer">
+    <div class="container">
+      <div class="row">
+        <section id="hours" class="col-sm-4">
+          <span> Hours: </span><br>
+        <span> Monday-Friday: 10:00AM - 10:00PM </span><br>
+          <span> Saturday-Sunday: 9:00AM - 11:00PM </span><br>
+
+        </section>
+      </div>
     </div>
-    <div id="sushi" class="menu-content col-md-12 col-ms-12 col-xs-12">
-      <h3 class="text-center">C</h3>
-      <p>Scelerisque in dictum non consectetur a. Feugiat in fermentum posuere urna nec tincidunt. Nisi est sit amet facilisis magna etiam. Convallis tellus id interdum velit laoreet id donec. Montes nascetur ridiculus mus mauris. Sit amet facilisis magna etiam tempor orci eu lobortis. Sem integer vitae justo eget magna fermentum iaculis eu non. Enim sit amet venenatis urna cursus eget nunc scelerisque. Semper viverra nam libero justo. Facilisis sed odio morbi quis commodo odio aenean. Risus sed vulputate odio ut enim blandit volutpat maecenas. Hendrerit gravida rutrum quisque non tellus orci ac. Neque convallis a cras semper auctor neque vitae tempus quam. Vel risus commodo viverra maecenas accumsan lacus. Nisl purus in mollis nunc. Justo laoreet sit amet cursus sit amet. Tellus in hac habitasse platea dictumst vestibulum. Felis eget velit aliquet sagittis id consectetur purus ut. Et netus et malesuada fames ac turpis. Pulvinar mattis nunc sed blandit.</p>
-      <p>Nisl tincidunt eget nullam non nisi est sit amet. Sed felis eget velit aliquet sagittis id consectetur. Rhoncus est pellentesque elit ullamcorper dignissim cras tincidunt. Tellus pellentesque eu tincidunt tortor aliquam. Ullamcorper morbi tincidunt ornare massa eget egestas purus viverra accumsan. Auctor augue mauris augue neque gravida in fermentum et. Neque volutpat ac tincidunt vitae semper quis lectus nulla at. Aliquam malesuada bibendum arcu vitae elementum curabitur vitae nunc sed. Justo donec enim diam vulputate. Sodales neque sodales ut etiam. Porta non pulvinar neque laoreet suspendisse interdum consectetur libero id. Ipsum consequat nisl vel pretium. Eget arcu dictum varius duis at consectetur lorem donec. Aliquam nulla facilisi cras fermentum. Risus nullam eget felis eget nunc lobortis. Eros in cursus turpis massa. A pellentesque sit amet porttitor eget dolor morbi. Felis bibendum ut tristique et egestas quis ipsum.</p>
-    </div>
-  </div>
+  </footer>
 
   <!-- jQuery (Bootstrap JS plugins depend on it) -->
   <script src="js/jquery-1.11.3.min.js"></script>
