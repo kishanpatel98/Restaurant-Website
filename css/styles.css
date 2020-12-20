@@ -124,7 +124,7 @@ body {
 }
 
 #call-btn > a:hover {
-    box-shadow: 0 0 5px 1px lightgrey;
+  box-shadow: 0 0 5px 1px lightgrey;
 }
 
 #xs-deliver {
@@ -176,8 +176,46 @@ body {
   opacity: 0.8;
 }
 
+/* Footer */
+.panel-footer {
+  color: #FFFAF0;
+  position: relative;
+  width: 100vw;
+  margin-left: -50vw;
+  left: 50%;
+  margin-top: 30px;
+  padding-top: 35px;
+  padding-bottom: 30px;
+  background-color: #1e2021;
+  border-top: 0;
+}
 
+.panel-footer div.row {
+  margin-bottom: 35px;
+}
 
+#hours, #address {
+  line-height: 2;
+}
+
+#hours > span, #address > span {
+  font-size: 16px;
+}
+
+#address p {
+  color: #4e7a00;
+  font-size: 13px;
+  line-height: 1.8;
+}
+
+#testimonials {
+  font-style: italic;
+}
+
+#testimonials p {
+  margin-bottom: 25px;
+}
+/* End Footer */
 
 
 /*** Large Devices ***/
@@ -213,6 +251,7 @@ body {
 
 /*** Extra Small Devices ***/
 @media (max-width: 767px) {
+  /* Header */
   .navbar-brand {
     padding-top: 10px;
     height: 80px;
@@ -233,7 +272,9 @@ body {
   .navbar-brand p img {
     height: 15px;
   }
+  /* End Header */
 
+/* Main Page */
   .container .jumbotron {
     margin-top: 30px;
     padding: 0;
@@ -243,6 +284,21 @@ body {
     width: 360px;
     margin: 0 auto 15px;
   }
+  /* End Main Page */
+
+  /* Footer */
+  .panel-footer section {
+    margin-bottom: 30px;
+    text-align: center;
+  }
+
+  .panel-footer section:nth-child(3) {
+    margin-bottom: 0; /* Margin alreay exists on entire bottom row */
+  }
+  .panel-footer section hr{
+    width: 50%;
+  }
+  /* End Footer */
 }
 
 /*** Super Small Devices ***/
