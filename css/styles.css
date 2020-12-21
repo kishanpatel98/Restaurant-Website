@@ -85,7 +85,7 @@ body {
 /* We deliver text */
 #phone div {
   color: black;
-  text-align: right;
+  text-align: center;
   padding-right: 15px;
 }
 
@@ -98,6 +98,45 @@ body {
   margin-top: -30px
 }
 /* End Header */
+
+/* Body Menu Categories */
+#menu-categories-title {
+  color: #FFFAF0;
+  font-weight: bold;
+  font-style: underline;
+  text-decoration: underline;
+}
+
+.category-tile {
+  position: relative;
+  border: 2px solid #335c80;
+  overflow: hidden;
+  width: 200px;
+  height: 200px;
+  margin: 0 auto 15px;
+}
+
+.category-tile span {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 16px;
+  text-transform: uppercase;
+  background-color: #000;
+  opacity: 0.8;
+  color: lightgrey;
+}
+
+.category-tile:hover {
+  box-shadow: 0 0 5px 5px lightgrey;
+}
+
+#menu-categories-title {
+  margin-bottom: 50px;
+}
+/* End Body Menu Categories */
 
 #collapsable-nav a {
   font-size: 14px;
@@ -218,6 +257,8 @@ body {
 /* End Footer */
 
 
+
+
 /*** Large Devices ***/
 @media (min-width: 1200px) {
   .container .jumbotron {
@@ -274,7 +315,7 @@ body {
   }
   /* End Header */
 
-/* Main Page */
+  /* Main Page */
   .container .jumbotron {
     margin-top: 30px;
     padding: 0;
@@ -302,14 +343,31 @@ body {
 }
 
 /*** Super Small Devices ***/
-@media (max-width: 374px) {
+@media (max-width: 479px) {
+  /* Header */
   .navbar-brand h1 {
     padding-top: 5px;
     font-size: 8vw;
   }
+  /* End Header */
 
+  /* Home Page */
   #menu-tile, #specials-tile {
     width: 280px;
     margin: 0 auto 15px;
   }
+  /* End Home Page */
+
+  /* Menu Categories */
+  .col-xxs-12 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    float: left;
+    width: 100%;
+  }
+  /* End Menu Categories */
+
+
 }
