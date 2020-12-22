@@ -1,3 +1,4 @@
-# Implementing a Bootstrap CSS framework based restaurant website/menu:
+# A HTML and Bootstrap CSS framework based restaurant website optimized for various screen sizes.
 
-https://kishanpatel98.github.io/Module-3-HTML-CSS-Javascript-for-Web-Developers-Coding-Assignment-Restaurant-Webpage/
+Website can be previewed at:
+https://kishanpatel98.github.io/Restaurant-Website/index.html
